@@ -23,7 +23,6 @@ public class UsuarioService {
     @Value("${spring.secretkey}")
     private String secret;
 
-
     public boolean ValidaUsuarioSenha(LoginRequest loginRequest) {
         try {
 
